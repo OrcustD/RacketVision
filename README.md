@@ -2,7 +2,7 @@
 # RacketVision: A Multiple Racket Sports Benchmark for Unified Ball and Racket Analysis
 RacketVision is a new benchmark dataset of table tennis, tennis, and badminton for ball tracking, racket pose estimation, and trajectory prediction to improve sports analytics.
 
-![Teaser](assets/teasor.pdf)
+![Teaser](assets/teasor_page-0001.jpg)
 
 
 ## Getting Started
