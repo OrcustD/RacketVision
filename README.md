@@ -7,7 +7,7 @@ RacketVision is a new benchmark dataset of table tennis, tennis, and badminton f
 
 ## Getting Started
 ### Downloading the Dataset
-Download the dataset from here and put it in `./data` folder.
+Download the dataset from [here](https://drive.google.com/file/d/1fdnmmuUPYd2tf0WKloGW5kYVNcifvz2X/view?usp=drive_link) and put it in `./data` folder.
 ### Preprocess
 Extract the frames from video clips by run
 ```
