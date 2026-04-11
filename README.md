@@ -74,7 +74,7 @@ All modules use `../data` relative to `source/<Module>/`, which resolves to `sou
 | `annotations/` | Global dataset metadata and per-clip annotations |
 | `data_traj/` | Pre-built trajectory prediction datasets (PKL) |
 
-For detailed data formats, directory layout, and annotation specifications, see [`source/data/README.md`](source/data/README.md).
+For detailed data formats, directory layout, and annotation specifications, see the [dataset card on Hugging Face](https://huggingface.co/datasets/linfeng302/RacketVision).
 
 ### Data Preprocessing (Required)
 
