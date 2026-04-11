@@ -1,4 +1,4 @@
-# RacketVision: A Multiple Racket Sports Benchmark for Unified Ball and Racket Analysis
+# [AAAI 2026 Oral] RacketVision: A Multiple Racket Sports Benchmark for Unified Ball and Racket Analysis
 
 [![Arxiv](https://img.shields.io/badge/ArXiv-2511.17045-B31B1B.svg)](https://arxiv.org/abs/2511.17045)
 [![AAAI](https://img.shields.io/badge/AAAI_2026-Oral-blue.svg)](https://aaai.org/)
