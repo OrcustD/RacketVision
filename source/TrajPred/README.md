@@ -4,16 +4,12 @@ Ball trajectory prediction module. Given a history of ball positions and racket 
 
 ## Models
 
-Several architectures are provided:
+| Model | Registry name | Description |
+|-------|-----------------|-------------|
+| **LSTM** | `TPLSTM` | Baseline LSTM (`ball_only` or `ball_racket` concatenation) |
+| **CrossLSTM-Attn** | `TPLSTMAttn` | Low-dim cross-attention + gated residual + LSTM (used for released weights) |
 
-| Model | Registry Name | Description |
-|-------|---------------|-------------|
-| **LSTM** | `TPLSTM` | Basic LSTM predictor (ball-only or ball+racket) |
-| **CrossLSTM-Attn** | `TPLSTMAttn` | LSTM with cross-attention fusion of ball and racket features |
-| **Transformer** | `TPTransformer` | Transformer-based trajectory predictor |
-| **Crossformer** | `TPCrossformer` | Crossformer-style predictor |
-
-The released checkpoints use **CrossLSTM-Attn** (`TPLSTMAttn`).
+Released checkpoints use **CrossLSTM-Attn** (`TPLSTMAttn`).
 
 ## Directory Structure
 
@@ -30,9 +26,7 @@ TrajPred/
 │   └── crosslstm_short_tennis.pth
 ├── model/
 │   ├── lstm.py              # TPLSTM
-│   ├── cross_lstm.py        # TPLSTMAttn (CrossLSTM + Attention)
-│   ├── tp_transformer.py    # TPTransformer
-│   ├── crossformer.py       # TPCrossformer
+│   ├── cross_lstm.py        # TPLSTMAttn
 │   └── loss.py              # Weighted MSE loss
 ├── dataset/
 │   └── trajectory.py        # BallTraj dataset (loads PKL files)
